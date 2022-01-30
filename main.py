@@ -21,7 +21,7 @@ os.system('clear')
 with open('config.json') as f:
     config = json.load(f)
 
-token = config.get('Token')
+token = input("Token: ")
 prefix = config.get('Prefix')
 
 channel_names = config.get('Channel-Names')
